@@ -34,7 +34,7 @@ function LandingPage() {
     }
   return (
     <div>
-      <div class="grid grid-cols-3">
+      <div class="lg:grid lg:grid-cols-3">
         <div class="..."></div>
         <div class="...">
 
