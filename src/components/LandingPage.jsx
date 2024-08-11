@@ -34,18 +34,18 @@ function LandingPage() {
     }
   return (
     <div>
-      <div class="grid grid-cols-3 gap-4">
+      <div class="grid grid-cols-3">
         <div class="..."></div>
         <div class="...">
 
 
-          <form className='text-center py-6 relative flex flex-col justify-around w-50 mt-60  h-96 border border-neutral-500 rounded-lg bg-white/10 backdrop-blur-lg p-3 px-6' onSubmit={Submit}>
+          <form className='text-center justify-around py-10 w-auto mt-60 border border-neutral-500 rounded-lg bg-white/20 backdrop-blur-lg p-3 px-6' onSubmit={Submit}>
             <div className=' formContent '>
               <h1 className="text-7xl font-bold text-violet-400 py-2">GET QUIZ</h1>
               <span class="text-xl text-white py-2">Fill Up To Start Quiz</span><br />
               <div>
                 <input
-                className='relative bg-transparent ring-0 outline-none font-bold border border-neutral-500 text-white placeholder-white text-sm rounded-lg focus:ring-violet-500 placeholder-opacity-60 focus:border-violet-500 block w-full p-2.5 checked:bg-emerald-500'
+                className='relative bg-white ring-0 outline-none font-bold border border-neutral-500 text-white placeholder-dark text-sm rounded-lg focus:ring-violet-500 placeholder-opacity-60 focus:border-violet-500 block w-full p-2.5 checked:bg-emerald-500'
                 id="username"
                 type="text"
                 value={username}
@@ -56,7 +56,7 @@ function LandingPage() {
               </div><br />
               <div>
                 <select
-                    className='relative bg-transparent ring-0 outline-none border border-neutral-500 text-violet-950 text-sm rounded-lg focus:ring-violet-500 placeholder-opacity-60 focus:border-violet-500 block w-full p-2.5'
+                    className='relative bg-white ring-0 outline-none border border-neutral-500 text-violet-950 text-sm rounded-lg focus:ring-violet-500 placeholder-opacity-60 focus:border-violet-500 block w-full p-2.5'
                     id="category"
                     value={category}
                     onChange={(e) => setCategory(e.target.value)}
