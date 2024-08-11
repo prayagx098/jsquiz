@@ -1,15 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import Quest from '../data/quest.json';
+import { useNavigate } from 'react-router-dom';
+
+
+
 
 function Quizpage() {
     const [currentQuestion, setCurrentQuestion] = useState(null);
     const [score, setScore] = useState(0);
     const [showScore, setShowScore] = useState(false);
-    const [usedQuest, setUsedQuestions] = useState([]);
+    const [usedQuest, setQuestions] = useState([]);
     const [loading, setLoading] = useState(true); 
     const [error, setError] = useState(null);
     const [qno, setQuestionNumber] = useState(1);
 
+    const navigate = useNavigate();
+    function homeNavi() {
+    navigate('/')
+    }
     useEffect(() => {
         const loadQuiz = () => {
             const userInfo = localStorage.getItem('userData');
@@ -24,17 +32,15 @@ function Quizpage() {
 
                     const questions = Quest.questions[category];
                     const prevQuesstion = userData.questions || [];
-                    setUsedQuestions(prevQuesstion);
+                    setQuestions(prevQuesstion);
                     
 
            
-                    let remQuest = questions
-                    .map(ques => !usedQuest.includes(ques.sino) ? ques : null)
-                    .filter(ques => ques !== null);
+                    let remQuest = questions.map(ques => !usedQuest.includes(ques.sino) ? ques : null).filter(ques => ques !== null);
 
                     if (remQuest.length === 0) {
                       remQuest = questions; 
-                        setUsedQuestions([]); 
+                      setQuestions([]); 
                     }
 
                     const randomIndex = Math.floor(Math.random() * remQuest.length);
@@ -86,7 +92,7 @@ function Quizpage() {
 
                 localStorage.setItem('userData', JSON.stringify(userData));
 
-                setUsedQuestions([...usedQuest, newQuestion.sino]);
+                setQuestions([...usedQuest, newQuestion.sino]);
                 
                 setCurrentQuestion(newQuestion);
             }
@@ -131,6 +137,7 @@ function Quizpage() {
               You scored {score} out of {Quest.questions[userInfo.category].length}
             </h2>
             <p className="text-lg text-gray-600">Keep practicing to improve your score.</p>
+            <button class="bg-violet-500 text-neutral-50 p-2 rounded-lg hover:bg-violet-950" onClick={homeNavi}>Try Another Quiz ?</button>
           </div>
         </div>
         );

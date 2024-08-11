@@ -7,7 +7,7 @@ function RulePage() {
     useEffect(() => {
         const timeoutId = setTimeout(() => {
             navigate('/index');
-        }, 5000);
+        }, 3000);
 
         return () => clearTimeout(timeoutId);
     }, [navigate]);
@@ -24,7 +24,7 @@ function RulePage() {
                 <style>
                     {`
                     .loader {
-                        border-top-color: #3490dc;
+                        border-top-color: rgb(139 92 246);
                         animation: spin 1s infinite linear;
                     }
 
