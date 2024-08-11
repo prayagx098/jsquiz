@@ -1,0 +1,341 @@
+{
+    "questions": {
+      "html": [
+        {
+          "sino" : 1,
+          "question": "What does HTML stand for?",
+          "options": {
+            "a": "HyperText Markup Language",
+            "b": "HyperText Markdown Language",
+            "c": "HighText Markup Language",
+            "d": "HyperText Multiple Language"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 2,
+          "question": "Which HTML tag is used to define an internal style sheet?",
+          "options": {
+            "a": "<style>",
+            "b": "<script>",
+            "c": "<css>",
+            "d": "<link>"
+          },
+          "answer": "a"
+        },
+        {
+            "sino" : 3,
+          "question": "What attribute is used to provide a tooltip in HTML?",
+          "options": {
+            "a": "title",
+            "b": "alt",
+            "c": "tooltip",
+            "d": "data-info"
+          },
+          "answer": "a"
+        },
+        {
+            "sino" : 4,
+          "question": "Which HTML tag is used to create a hyperlink?",
+          "options": {
+            "a": "<a>",
+            "b": "<link>",
+            "c": "<hyperlink>",
+            "d": "<url>"
+          },
+          "answer": "a"
+        },
+        {
+            "sino" : 5,
+          "question": "What is the correct HTML element for inserting a line break?",
+          "options": {
+            "a": "<break>",
+            "b": "<br>",
+            "c": "<lb>",
+            "d": "<newline>"
+          },
+          "answer": "b"
+        },
+        {
+            "sino" : 6,
+          "question": "Which HTML tag is used to define a table?",
+          "options": {
+            "a": "<table>",
+            "b": "<tbl>",
+            "c": "<tab>",
+            "d": "<t>"
+          },
+          "answer": "a"
+        },
+        {
+            "sino" : 7,
+          "question": "How do you create a numbered list in HTML?",
+          "options": {
+            "a": "<ul>",
+            "b": "<ol>",
+            "c": "<list>",
+            "d": "<nl>"
+          },
+          "answer": "b"
+        },
+        {
+            "sino" : 8,
+          "question": "Which tag is used to define an unordered list in HTML?",
+          "options": {
+            "a": "<ul>",
+            "b": "<ol>",
+            "c": "<list>",
+            "d": "<li>"
+          },
+          "answer": "a"
+        },
+        {
+            "sino" : 9,
+          "question": "What is the correct HTML element for inserting an image?",
+          "options": {
+            "a": "<image>",
+            "b": "<img>",
+            "c": "<picture>",
+            "d": "<photo>"
+          },
+          "answer": "b"
+        },
+        {
+            "sino" : 10,
+          "question": "Which attribute specifies the URL of an image in HTML?",
+          "options": {
+            "a": "href",
+            "b": "src",
+            "c": "alt",
+            "d": "link"
+          },
+          "answer": "b"
+        }
+      ],
+      "css": [
+        {
+          "sino" : 1,
+          "question": "What does CSS stand for?",
+          "options": {
+            "a": "Creative Style Sheets",
+            "b": "Cascading Style Sheets",
+            "c": "Computer Style Sheets",
+            "d": "Colorful Style Sheets"
+          },
+          "answer": "b"
+        },
+        {
+          "sino" : 2,
+          "question": "Which property is used to change the font of an element?",
+          "options": {
+            "a": "font-style",
+            "b": "text-style",
+            "c": "font-family",
+            "d": "font-weight"
+          },
+          "answer": "c"
+        },
+        {
+          "sino" : 3,
+          "question": "How do you select an element with id 'header' in CSS?",
+          "options": {
+            "a": "#header",
+            "b": ".header",
+            "c": "header",
+            "d": "id-header"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 4,
+          "question": "Which property is used to change the background color in CSS?",
+          "options": {
+            "a": "background-color",
+            "b": "bg-color",
+            "c": "color-bg",
+            "d": "background"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 5,
+          "question": "What is the default value of the 'display' property?",
+          "options": {
+            "a": "block",
+            "b": "inline",
+            "c": "none",
+            "d": "inline-block"
+          },
+          "answer": "b"
+        },
+        {
+          "sino" : 6,
+          "question": "Which CSS property controls the text size?",
+          "options": {
+            "a": "font-size",
+            "b": "text-size",
+            "c": "size",
+            "d": "text-font"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 7,
+          "question": "How do you make text bold in CSS?",
+          "options": {
+            "a": "font-weight: bold;",
+            "b": "text-weight: bold;",
+            "c": "font-style: bold;",
+            "d": "text-style: bold;"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 8,
+          "question": "Which property is used to add space inside an element?",
+          "options": {
+            "a": "padding",
+            "b": "margin",
+            "c": "spacing",
+            "d": "border"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 9,
+          "question": "How do you center text in CSS?",
+          "options": {
+            "a": "text-align: center;",
+            "b": "align: center;",
+            "c": "center-align: true;",
+            "d": "text-center;"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 10,
+          "question": "Which property is used to create a border around an element?",
+          "options": {
+            "a": "border",
+            "b": "outline",
+            "c": "border-width",
+            "d": "frame"
+          },
+          "answer": "a"
+        }
+      ],
+      "bootstrap": [
+        {
+          "sino" : 1,
+          "question": "Which class is used to create a primary button in Bootstrap?",
+          "options": {
+            "a": "btn-primary",
+            "b": "btn-default",
+            "c": "btn-main",
+            "d": "btn-highlight"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 2,
+          "question": "How do you center a column in Bootstrap?",
+          "options": {
+            "a": "Use the 'mx-auto' class",
+            "b": "Use the 'text-center' class",
+            "c": "Use the 'align-center' class",
+            "d": "Use the 'center-column' class"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 3,
+          "question": "What is the default grid system used in Bootstrap?",
+          "options": {
+            "a": "12-column grid",
+            "b": "8-column grid",
+            "c": "16-column grid",
+            "d": "10-column grid"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 4,
+          "question": "Which class is used to create a responsive table in Bootstrap?",
+          "options": {
+            "a": "table-responsive",
+            "b": "responsive-table",
+            "c": "table-fit",
+            "d": "table-fluid"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 5,
+          "question": "How do you add a margin to a Bootstrap element?",
+          "options": {
+            "a": "Use the 'm-' class",
+            "b": "Use the 'margin-' class",
+            "c": "Use the 'spacing-' class",
+            "d": "Use the 'padding-' class"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 6,
+          "question": "Which Bootstrap class is used for a large button?",
+          "options": {
+            "a": "btn-lg",
+            "b": "btn-large",
+            "c": "btn-big",
+            "d": "btn-xl"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 7,
+          "question": "How do you create a modal in Bootstrap?",
+          "options": {
+            "a": "Use the 'modal' class",
+            "b": "Use the 'popup' class",
+            "c": "Use the 'dialog' class",
+            "d": "Use the 'lightbox' class"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 8,
+          "question": "Which class is used for a horizontal divider in Bootstrap?",
+          "options": {
+            "a": "hr",
+            "b": "divider",
+            "c": "horizontal-line",
+            "d": "hr-line"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 9,
+          "question": "How do you make an image responsive in Bootstrap?",
+          "options": {
+            "a": "Use the 'img-fluid' class",
+            "b": "Use the 'img-responsive' class",
+            "c": "Use the 'img-fit' class",
+            "d": "Use the 'responsive-img' class"
+          },
+          "answer": "a"
+        },
+        {
+          "sino" : 10,
+          "question": "Which class is used to hide an element on mobile devices?",
+          "options": {
+            "a": "d-none d-sm-block",
+            "b": "hidden-xs",
+            "c": "hide-mobile",
+            "d": "d-hide d-mobile"
+          },
+          "answer": "a"
+        }
+      ]
+    }
+  }
+  
