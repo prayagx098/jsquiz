@@ -147,7 +147,7 @@ function Quizpage() {
         return (
           <div className="flex justify-center items-center h-screen bg-gray-100">
           <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
-            <div className='questionno'> Qno.{qno}</div>
+            <div className='questionno'> Questions : {qno}/10</div>
             <div className="questionSection mb-6">
               <h2 className="text-2xl font-semibold text-gray-800">{currentQuestion.question}</h2>
             </div>
