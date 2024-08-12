@@ -132,7 +132,7 @@ function Quizpage() {
     if (showScore) {
         const userInfo = JSON.parse(localStorage.getItem('userData'));
         return (
-          <div className="flex justify-center items-center h-screen bg-gray-100">
+          <div className="flex justify-center items-center h-screen bg-violet-950">
           <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md text-center">
             <h1 className="text-3xl font-bold text-gray-800 mb-4">Good job {userInfo.username}, </h1>
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
