@@ -124,7 +124,7 @@ function Quizpage() {
     }
 
     if (error) {
-        return <div className="errorSection">{error}</div>;
+        return <div className="errorSection">SukumaranThambi{error}</div>;
     }
 
     if (showScore) {
