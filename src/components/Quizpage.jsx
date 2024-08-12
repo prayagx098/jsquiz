@@ -100,7 +100,8 @@ function Quizpage() {
     };
 
     if (loading) {
-        return  <div className="bg-gray-100 h-screen flex items-center justify-center">
+        return  (
+          <div className="bg-gray-100 h-screen flex items-center justify-center">
                   <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
                       <div className="loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-24 w-24 mb-4"></div>
                       <h2 className="text-lg font-semibold">Loading...</h2>
@@ -120,7 +121,8 @@ function Quizpage() {
                       }
                       `}
                   </style>
-                </div>;
+                </div>
+        );
     }
 
     if (error) {
@@ -171,7 +173,6 @@ function Quizpage() {
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md text-center">
         <h1 className="text-3xl font-bold text-gray-800 mb-4"> Teachnial Error Occured </h1>
-
         <p className="text-lg text-gray-600">Please Redo Quiz</p>
         <button class="bg-violet-500 text-neutral-50 p-2 rounded-lg hover:bg-violet-950" onClick={homeNavi}>REDO</button>
       </div>
