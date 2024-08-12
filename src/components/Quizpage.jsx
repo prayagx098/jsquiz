@@ -96,7 +96,7 @@ function Quizpage() {
                 
                 setCurrentQuestion(newQuestion);
             }
-        }, 200);
+        }, 100);
     };
 
     if (loading) {
@@ -167,14 +167,15 @@ function Quizpage() {
         );
     }
 
-    return           <div className="flex justify-center items-center h-screen bg-gray-100">
-    <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md text-center">
-      <h1 className="text-3xl font-bold text-gray-800 mb-4"> Teachnial Error Occured </h1>
+    return    (        
+    <div className="flex justify-center items-center h-screen bg-gray-100">
+      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md text-center">
+        <h1 className="text-3xl font-bold text-gray-800 mb-4"> Teachnial Error Occured </h1>
 
-      <p className="text-lg text-gray-600">Please Redo Quiz</p>
-      <button class="bg-violet-500 text-neutral-50 p-2 rounded-lg hover:bg-violet-950" onClick={homeNavi}>REDO</button>
-    </div>
-  </div>;
+        <p className="text-lg text-gray-600">Please Redo Quiz</p>
+        <button class="bg-violet-500 text-neutral-50 p-2 rounded-lg hover:bg-violet-950" onClick={homeNavi}>REDO</button>
+      </div>
+    </div>);
 }
 
 export default Quizpage;
